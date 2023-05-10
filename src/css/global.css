@@ -1,4 +1,16 @@
-/* The integration's default injected base.css file */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#hero {
+   background-image: url("/images/hero-desktop.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+@media (max-width: 576px) {
+   #hero {
+      background-image: url("/images/hero-mobile.jpg");
+      background-position: center;
+   }
+}

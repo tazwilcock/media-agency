@@ -8,9 +8,38 @@ import "../css/global.css"
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       <meta name="viewport" content="width=device-width" />
       <meta name="generator" content={Astro.generator} />
-      <title>Astro</title>
+      <title>Media Agency</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Montserrat:wght@500;600&display=swap"
+         rel="stylesheet"
+      />
    </head>
    <body>
-      <h1>Astro</h1>
+      <!-- Hero Section -->
+
+      <section id="hero">
+         <!-- Hero Container -->
+         <div class="container mx-auto max-w-6xl px-6 py-12 md:px-0">
+            <!-- Header -->
+            <header class="flex items-center justify-between px-3 md:px-10">
+               <!-- Logo -->
+               <img src="/images/herologo.svg" alt="" />
+               <!-- Menu -->
+               <nav>
+                  <ul
+                     class="hidden font-notAlata font-semibold tracking-wide text-white md:flex md:space-x-8"
+                  >
+                     <li>About</li>
+                     <li>Careers</li>
+                     <li>Events</li>
+                     <li>Products</li>
+                     <li>Support</li>
+                  </ul>
+               </nav>
+            </header>
+         </div>
+      </section>
    </body>
 </html>
