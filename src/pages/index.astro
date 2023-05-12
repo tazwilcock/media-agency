@@ -111,6 +111,58 @@ import "../css/global.css"
       </section>
 
       <!-- Creations Section -->
-      <section id="creations"></section>
+      <section id="creations">
+         <!-- Creations Container -->
+         <div
+            class="container mx-auto my-32 max-w-6xl px-6 text-gray-900 md:mx-10 md:px-0"
+         >
+            <!-- Flexbox Section Header -->
+            <div
+               class="mb-20 flex justify-center md:items-center md:justify-between"
+            >
+               <h2
+                  class="mt-2 text-center text-4xl uppercase md:text-left md:text-5xl"
+               >
+                  Our Creations
+               </h2>
+               <button class="btn hidden md:block">See All</button>
+            </div>
+
+            <!-- Items Container -->
+            <div class="items-container">
+               <!-- Item One -->
+
+               <div class="item group">
+                  <!-- Desktop -->
+
+                  <img
+                     class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                     src="images/desktop/image-deep-earth.jpg"
+                     alt=""
+                  />
+
+                  <!-- Mobile -->
+                  <img
+                     class="w-full md:hidden"
+                     src="images/mobile/image-deep-earth.jpg"
+                     alt=""
+                  />
+                  <!-- Item Gradient -->
+
+                  <div
+                     class="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70"
+                  >
+                  </div>
+                  <!-- Item Text -->
+
+                  <h5
+                     class="absolute bottom-4 w-52 px-6 font-thin duration-200 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10"
+                  >
+                     Deep Earth
+                  </h5>
+               </div>
+            </div>
+         </div>
+      </section>
    </body>
 </html>
