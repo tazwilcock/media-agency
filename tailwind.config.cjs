@@ -10,8 +10,8 @@ module.exports = {
       },
       extend: {
          fontFamily: {
-            notSans: ["Montserrat Subrayada", "sans-serif"],
-            notAlata: ["Montserrat", "sans-serif"],
+            sans: ["Josefin Sans", "sans-serif"],
+            alata: ["Alata", "sans-serif"],
          },
       },
    },
