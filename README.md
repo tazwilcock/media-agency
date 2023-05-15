@@ -1,47 +1,21 @@
-# Astro Starter Kit: Minimal
+# Media Agency Landing Page
 
-```
-npm create astro@latest -- --template minimal
-```
+## 📐 Built With: HTML, CSS, Astro, JavaScript, and TailwindCSS
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+  
+See Brad Traversy's [Learn Tailwind CSS From Scratch](https://www.udemy.com/share/106DvQ3@IS-yDImVCMl7QkyDp-h4eeP_atFHrYFMGURTnwCFcgC-cav8LlDlRB5btX1HhOUx/) course on Udemy 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Notable Insights
 
-## 🚀 Project Structure
+> ✓ **Nesting Flex Containers** In the Footer
 
-Inside of your Astro project, you'll see the following folders and files:
+> ✓ **Custom CSS** For the Hamburger Icon
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+> ✓ **Using JavaScript** to toggle classes for Mobile Menu
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+> ✓ **Id's** on Button Element and Div Menu Element
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+> ✓ **Clicks** add/remove open class to button element
 
-Any static assets, like images, can be placed in the `public/` directory.
+> ✓ **Clicks** either add/remove hidden or flex class to Menu Div
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
