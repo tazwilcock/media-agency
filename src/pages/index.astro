@@ -2,6 +2,19 @@
 import "../css/global.css"
 ---
 
+<script>
+   const btn = document.getElementById("menu-btn")
+   const menu = document.getElementById("menu")
+
+   btn.addEventListener("click", navToggle)
+
+   function navToggle() {
+      btn.classList.toggle("open")
+      menu.classList.toggle("hidden")
+      menu.classList.toggle("flex")
+   }
+</script>
+
 <html lang="en">
    <head>
       <meta charset="utf-8" />
@@ -74,7 +87,7 @@ import "../css/global.css"
                   <button
                      id="menu-btn"
                      type="button"
-                     class="open hamburger z-40 block focus:outline-none md:hidden"
+                     class="hamburger z-40 block focus:outline-none md:hidden"
                   >
                      <span class="hamburger-top"></span>
                      <span class="hamburger-middle"></span>
@@ -82,7 +95,17 @@ import "../css/global.css"
                   </button>
                </div>
             </header>
-            <!-- @todo Mobile Menu -->
+            <!-- @todo completed after Hamburger Button: Mobile Menu -->
+            <div
+               id="menu"
+               class="absolute bottom-0 left-0 top-0 hidden min-h-screen w-full flex-col space-y-3 self-end bg-black py-1 pl-12 pt-40 text-lg uppercase text-white"
+            >
+               <a href="#" class="hover:text-pink-400">Home</a>
+               <a href="#" class="hover:text-pink-400">Careers</a>
+               <a href="#" class="hover:text-pink-400">Events</a>
+               <a href="#" class="hover:text-pink-400">Products</a>
+               <a href="#" class="hover:text-pink-400">Support</a>
+            </div>
             <div
                class="my-32 max-w-md border-2 p-4 font-sans text-4xl font-light uppercase text-white md:mx-10 md:p-10 md:text-5xl"
             >
