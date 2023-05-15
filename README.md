@@ -3,7 +3,7 @@
 ## 📐 Built With: HTML, CSS, Astro, JavaScript, and TailwindCSS
 
   
-See Brad Traversy's [Learn Tailwind CSS From Scratch](https://www.udemy.com/share/106DvQ3@IS-yDImVCMl7QkyDp-h4eeP_atFHrYFMGURTnwCFcgC-cav8LlDlRB5btX1HhOUx/) course on Udemy 
+See Brad Traversy's [Tailwind CSS From Scratch](https://www.udemy.com/share/106DvQ3@IS-yDImVCMl7QkyDp-h4eeP_atFHrYFMGURTnwCFcgC-cav8LlDlRB5btX1HhOUx/) course on Udemy 
 
 ## Notable Insights
 
