@@ -1,6 +1,6 @@
 # Media Agency Landing Page
 
-## 📐 Built With: HTML, CSS, Astro, JavaScript, and TailwindCSS
+## 📐 Built With: Astro, JavaScript, and Tailwind
 
 See the [Finished Product](https://resilient-pudding-e59a34.netlify.app/)
 
@@ -8,13 +8,13 @@ See Brad Traversy's [Tailwind CSS From Scratch](https://www.udemy.com/share/106D
 
 ## Notable Insights
 
-> ✓ **Nesting Flex Containers** In the Footer
+> ✓ **Nested Flex Containers** In the Footer
 
-> ✓ **Custom CSS** For the Hamburger Icon
+> ✓ **Custom CSS** For Hamburger Icon
 
-> ✓ **Using JavaScript** to toggle classes for Mobile Menu
+> ✓ **JavaScript** to toggle classes for Mobile Menu
 
-> ✓ **Id's** on Button Element and Div Menu Element
+> ✓ **Id's** used for toggling Button Element and Div Menu Element
 
 > ✓ **Clicks** add/remove open class to button element
 
